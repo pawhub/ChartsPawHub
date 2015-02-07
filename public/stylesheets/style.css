@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #F1F1F1;
+    color: #656565;
+    font-family: Tahoma;
+}
+#wrapper {
+    margin: auto;
+    width: 540px;
+}
+.chart, .chart2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CACACC;
+    border-radius: 10px;
+    float: left;
+    margin: 20px auto;
+    padding: 4px;
+    width: 540px;
+}
+.chartTitle {
+    background-color: rgba(0, 0, 0, 0.65);
+    border-bottom: 10px solid #A51C54;
+    float: left;
+    height: 35px;
+    position: relative;
+    top: -40px;
+    width: 540px;
+}
+.chartTitle img {
+    float: left;
+    padding: 5px;
+}
+.chartTitle h1 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin-left: 3px;
+    padding: 2px;
+}
+.chartImg {
+    float: left;
+    position: relative;
+    width: 540px;
+}
+.chartContent {
+    float: left;
+    left: 5px;
+    position: relative;
+    margin-top: -35px;
+    width: 540px;
+}
+.chartUserImg {
+    float: left;
+    height: 90px;
+    width: 90px;
+}
+.chartUserCmnt {
+    float: left;
+    width: 438px;
+}
+.chartUserCmntHead {
+    height: 29px;
+}
+.chartUserCmntHead h3 {
+    float: left;
+    font-weight: 500;
+}
+.chartUserCmntHead .time {
+    color: #B71C4E;
+    float: right;
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+.chartFoot {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-radius: 0 0 9px 9px;
+    float: left;
+    height: 25px;
+    position: relative;
+    width: 540px;
+}
+.chartFoot .share {
+    background: url("../images/compartir_gray.png") no-repeat scroll 5px 4px rgba(0, 0, 0, 0);
+    float: left;
+    font-size: 0.94em;
+    padding-left: 29px;
+    padding-top: 2px;
+    width: 80px;
+}
+.chartFoot .msgs {
+    background: url("../images/msg.png") no-repeat scroll 5px 7px rgba(0, 0, 0, 0);
+    float: right;
+    font-size: 0.94em;
+    padding-left: 29px;
+    padding-top: 2px;
+    width: 61px;
+}
+.chart2 .chartTitle {
+    top: 0;
+}
+
+.chart2 .chartContent{
+	margin-top: 0;
+}
+.chart2 .chartTitle {
+    background: none repeat scroll 0 0 #B71C4E;
+    margin-bottom: 5px;
+}

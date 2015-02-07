@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	{{>header}}
+	
+	<div id="wrapper">
+
+		<div class="chart">
+			<div class="chartImg">
+				<img src="../images/{{ image_case }}.jpg" />
+			</div>
+			
+			<div class="chartTitle">
+				<img src="../images/{{ icon_case }}.png" />
+				<h1>{{ case_type }}</h1>
+			</div>
+				
+			<div class="chartContent">
+				
+				<div class="chartUserImg">
+					<img src="../images/{{user_id}}.png" width="80" height="80" />
+				</div>
+				
+				<div class="chartUserCmnt">
+					<div class="chartUserCmntHead">
+						<h3>{{ user_name }}</h3>
+						<p class="time">
+							hace 2 horas
+						</p>
+					</div>
+						<p>
+							{{ case_description }}
+						</p>
+				</div>
+			</div>
+			
+			<div class="chartFoot">
+				<p class="share">
+					Compartir
+				</p>
+				<p class="msgs">
+					Get L&F
+				</p>
+				</div>
+			</div>
+
+		</div>
+
+</html>
